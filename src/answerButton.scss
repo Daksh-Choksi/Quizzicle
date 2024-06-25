@@ -1,0 +1,44 @@
+
+@keyframes blinds {
+  100% {
+    background-position: 0 0, 0 -3em;
+    background-size: 0 0, 1em 6em;
+  }
+}
+
+
+.answerButton {
+  background-color: darkslategray;
+  color: pink;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 100px;
+  margin-top: 15px;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  $color: #7cf07f;
+  $color2: #88d6f3;
+  color: $color;
+
+  &:hover {
+    animation: blinds 0.75s linear forwards;
+    background: linear-gradient(0deg, $color 25%, transparent 25%) 0 0 / 0.5em 0.5em
+              , linear-gradient(0deg, $color2 50%, transparent 50%) 0 0 / 1em 1em;
+    color: adjust-hue($color,180);
+  }
+
+  
+}
+
+
+.answerButton:hover {
+  transition: 0.5s;
+}
+
+
+.answerButton:active {
+  padding: 5px 15px;
+  transition: 0.5s;
+}

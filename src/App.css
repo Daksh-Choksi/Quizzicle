@@ -1,0 +1,128 @@
+@keyframes pulse {
+  0%, 100% {
+    background-color: #f56a3f;
+  }
+  50% {
+    background-color: #9e42b0;
+  }
+}
+
+body {
+  animation: pulse 13s infinite;
+  margin: 0px;
+}
+
+.homeImg {
+  position: absolute;
+  width: 1518px;
+}
+
+.homeGif {
+  position: relative;
+  background-color: transparent;
+}
+
+.button {
+  position: relative;
+  background-color: #1d6d86;
+  padding: 10px 100px;
+  border: none;
+  border-radius: 10px;
+  top: 1350px;
+  left: 630px;
+}
+.button:hover {
+  background-color: black;
+  color: #0fa;
+  padding: 20px 120px;
+  transition: 0.5s;
+  left: 610px;
+  border: 3px solid;
+  border-color: #1d6d86;
+}
+
+.button:active {
+  padding: 10px 100px;
+  transition: 0.5s;
+  left: 630px;
+}
+
+.questions {
+  color: whitesmoke;
+  margin: 70px;
+  font-size: 25px;
+  display: flex;
+  font-weight: 600;
+}
+
+.container {
+  width: 800px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.scoredisplay {
+  margin-top: 70px;
+  font-size: 20px;
+  margin-left: 650px;
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+.playAgain {
+  margin-top: 20px;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(86, 175, 38);
+  color: #1900ff;
+  transition: 0.5s;
+  margin-left: 688px;
+  margin-bottom: 100px;
+  margin-top: 12px;
+}
+
+.playAgain:hover {
+  padding: 20px 70px;
+  transition: 0.5s;
+  color: rgb(86, 175, 38);
+  background-color: #1900ff;
+  border: 3px solid;
+  border-color: darkgreen;
+  margin-left: 668px;
+}
+
+.playAgain:active {
+  transition: 0.5s;
+  border-radius: 20px;
+}
+
+.revealButton {
+  margin-left: 690px;
+  margin-top: 12px;
+  padding: 10px 30px;
+  background: linear-gradient(135deg, rgba(65, 88, 208, 0.8), rgba(19, 21, 133, 0.6), rgba(129, 11, 13, 0.5), rgba(35, 138, 233, 0.6));
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.revealButton:hover {
+  background-color: white;
+  color: color(srgb-linear rgba(0, 255, 229, 0.636) rgba(79, 0, 128, 0.756) rgba(208, 255, 0, 0.57));
+  padding: 20px 50px;
+  transition: 0.5s;
+  margin-left: 672px;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: darkgrey;
+  opacity: 0.5;
+}
